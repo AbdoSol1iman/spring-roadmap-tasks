@@ -17,25 +17,22 @@ public class book {
 //    }
 
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
-    void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    String getAuthor() {
+    public String getAuthor() {
         return author;
     }
-    void setAuthor(String author) {
+    public void setAuthor(String author) {
         this.author = author;
     }
 
-    String getIsbn() {
+    public String getIsbn() {
         return isbn;
-    }
-    void setIsbn(String isbn) {
-        this.isbn = isbn;
     }
 
     boolean isAvailable() {
